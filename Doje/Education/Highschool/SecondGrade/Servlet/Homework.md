@@ -1,11 +1,12 @@
 # MyProject
 
-##  내용
+내용
 이 파일은 MVC2 모델로 JSP에서 고객의 아이디와 비밀번호를 DTO에 보내 데이터베이스에 저장시킵니다.
 후에 DAO가 데이터베이스와 연동하여 로그인 실행화면을 JSP화면으로 출력되게 합니다.
 
 고객 정보(아이디,PASSWORD)를 입력받음 -> 서블릿에서 고객정보를 DTO에 전송 -> 전송된 정보를 DB에 저장함 -> DAO가 DB 연동 ->
 JSP로 로그인 실행 화면 또는 실패 화면을 출력
+~~~java
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 	String id=request.getParameter("id");
@@ -28,7 +29,7 @@ JSP로 로그인 실행 화면 또는 실패 화면을 출력
 		}
 	}
 }
-
+~~~
 
 
 ##  주요 단어
