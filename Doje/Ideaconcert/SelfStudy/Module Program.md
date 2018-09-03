@@ -12,7 +12,14 @@
 차이점:submit은 보고있는 페이지(데이터)를 전송하고 응답을 기다림.
 ajax는 필요한 데이터만 보내고, 응답을 받음.
 
-*ajax 코드
+*ajax 구조
+1.URL
+2.type
+3.성공 또는 실패
+4.
 
-
-*submit 
+*submit 구조 
+1.form
+2.action=URL
+3.method=type
+4.데이터
