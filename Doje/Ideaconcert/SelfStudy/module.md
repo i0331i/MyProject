@@ -32,7 +32,7 @@
   Actor를 통해 시스템이 수행하는 일의 목표
   
   *유스케이스*
-  ![Alt text](/사진/usecase.png)
+  ![usecase](https://user-images.githubusercontent.com/42599885/45399178-12126800-b682-11e8-92ee-38c9978cb25e.png)
   
   <hr/>
   
@@ -47,17 +47,16 @@
 
   예)모듈 개수와 비용 간의 상관관계
 
+![need](https://user-images.githubusercontent.com/42599885/45401143-35d9ac00-b68a-11e8-8124-6acfa28fbeac.png)
 
-
-   --------------------- img---------
+  
 
 모듈 개수와 모듈 별 개발비용은 반비례 관계, 모듈 개수와 모듈 통합 비용은 비례 
 
 
 모듈화 사례
---------------------img------------------------
 
-
+![situation](https://user-images.githubusercontent.com/42599885/45401145-38d49c80-b68a-11e8-9def-7442a22bd1ac.png)
 
   *모듈화 특성*
 
@@ -74,7 +73,5 @@
 
 
   **시퀀스 다이어그램**
-  <https://blog.naver.com/qkrwns152/221275475232>
+ ![default](https://user-images.githubusercontent.com/42599885/45401148-3c682380-b68a-11e8-94a2-4763cb89452d.png)
 
-  **유스케이스**
-  <http://littleadventurer.tistory.com/2>
