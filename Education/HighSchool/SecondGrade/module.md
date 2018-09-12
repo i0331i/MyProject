@@ -47,9 +47,9 @@
 		}
 		return ob;
 		}
-  
-  
+ ~~~
   getResultSet:DB값을 VO에 세팅을 해주는 역할을 함.
+  
   getDeclaredFields:VO클래스의 필드명과 변수명을 가져오는 역할을 함.
   
   아직 모듈화가 익숙치 않은 것 같아 더 열심히 연습하겠습니다...ㅠㅜ
