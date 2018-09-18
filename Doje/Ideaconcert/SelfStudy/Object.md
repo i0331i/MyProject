@@ -2,29 +2,29 @@ Today's Keyword
 ===============================
 * **1.Object**
 
-  모든 클래스의 **최상위** 클래스
+  * 모든 클래스의 **최상위** 클래스
 
-  모든 클래스가 공통으로 포함하고 있어야 하는 기능을 제공한다.
+  * 모든 클래스가 공통으로 포함하고 있어야 하는 기능을 제공한다.
 
-  Object가 가지고 있는 모든 메소드들을 클래스에서 사용가능
+  * Object가 가지고 있는 모든 메소드들을 클래스에서 사용가능
 
-  equals(), toString(), hashCode() 등
+  * equals(), toString(), hashCode() 등
 
 * **2.InstanceOf**
 
-형변환이 가능한지 여부에 따라 **true** 또는 **false**로 가르쳐주는 연산자
+  * 형변환이 가능한지 여부에 따라 **true** 또는 **false**로 가르쳐주는 연산자
 
-부모 객체인지 자식 객체인지 확인
+  * 부모 객체인지 자식 객체인지 확인
 
-<span style="color:green">사용 형식: 객체 + instanceOf + 클래스</span>
+  * <span style="color:green">사용 형식: 객체 + instanceOf + 클래스</span>
 
 * **3.Exception**
 
- 예외는 에러(Error)와 다르게 코드에서 수습될 수 있는 오류이다.
+  * 예외는 에러(Error)와 다르게 코드에서 수습될 수 있는 오류이다.
 
- 예외가 발생하면  **Exception(예외 처리)** 를 이용하여 문제를 해결할 수 있다.
+  * 예외가 발생하면  **Exception(예외 처리)** 를 이용하여 문제를 해결할 수 있다.
 
- 모든 예외 클래스는 java.lang.Exception 클래스를 상속받는다.
+  * 모든 예외 클래스는 java.lang.Exception 클래스를 상속받는다.
 
 * **3.1 try catch**
 
