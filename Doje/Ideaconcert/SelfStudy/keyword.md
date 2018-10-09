@@ -143,3 +143,5 @@ JAVA keyword 정리
             7.Error Page 처리   
     * 구조
       
+      ![web](https://user-images.githubusercontent.com/42599885/46649315-9f8a9e80-cbd3-11e8-8f66-0e260662e6a4.jpg)
+ 
