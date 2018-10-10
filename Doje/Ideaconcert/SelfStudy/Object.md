@@ -1,6 +1,6 @@
 Today's Keyword
 ===============================
-* **1.Object**
+ ### 1.Object
 
   * 모든 클래스의 **최상위** 클래스
 
@@ -10,7 +10,7 @@ Today's Keyword
 
   * equals(), toString(), hashCode() 등
 
-* **2.InstanceOf**
+### 2.InstanceOf
 
   * 형변환이 가능한지 여부에 따라 **true** 또는 **false**로 가르쳐주는 연산자
 
@@ -18,7 +18,7 @@ Today's Keyword
 
   * <span style="color:green">사용 형식: 객체 + instanceOf + 클래스</span>
 
-* **3.Exception**
+### 3.Exception
 
   * 예외는 에러(Error)와 다르게 코드에서 수습될 수 있는 오류이다.
 
@@ -26,11 +26,11 @@ Today's Keyword
 
   * 모든 예외 클래스는 java.lang.Exception 클래스를 상속받는다.
 
-* **3.1 try catch**
+#### 3.1 try catch
 
   * 예외 처리 기법 중 하나이다.
 
-  * try 절: 처리할 예외가 발생할지도 모를 코드 블록을 정의하는 역할을 한다.  try 블록 다음에는 catch절이 이어진다.
+  * try 절: 처리할 예외가 발생할지도 모를 코드 블록을 정의하는 역할을 한다.  
 
   * catch절: try 블록 내부에서 예외가 발생할 경우 호출되는 문장 블록이다. 
 
@@ -45,15 +45,15 @@ try{
 
 .... ......... ;
 
-.............. .. ; << 1. 예외가 발생
+.............. .. ; 
 
-.............. .... ; << 2. 예외가 발생한 곳 아래는 실행 x
+.............. .... ; 
 
 }
 
 catch(예외클래스 e) {
 
-예외 처리; << 3. catch문에서 예외처리를 한다.
+예외 처리; 
 
 }
 
@@ -64,28 +64,38 @@ finally {
 }
 ~~~
 
-* **3.2 throw vs throws**
+  * 코드내용
+  
+     1)try문에서 예외가 발생
+     
+     2)예외가 발생한 부분 아래는 실행되지 않는다.
+     
+     3)catch문에서 예외처리를 한다.
+     
+     4)finally문은 항상 실행 됨
 
-  **throw**
+#### 3.2 throw vs throws
+
+  * throw
 
      * 개발자가 직접 판단하여 예외를 발생시킨다.
 
      * 주로 예외를 예측할 수 없을 때 사용
 
-  **throws**
+  * throws
 
      * 자신을 호출하는 메소드에게 책임을 떠넘긴다.
 
      * 주로 예외를 예측할 수 있을 때 사용
 
-* **3.3 try catch를 하는 case, throw를 하는 case**
+#### 3.3 try catch를 하는 case, throw를 하는 case
 
-     * 예외를 발생시켜야 하는 경우에는 throw를 사용한다.
-
-     * throw 표현식;
-
-     * 그리고 예외를 잡아내는 데에는 try catch이 쓰인다.
-
-
+   * try catch를 하는 case
+       
+     * 예외를 발생시켜야 하는 경우 
+       
+   * throw를 하는 case
+      
+     * 예외를 잡아내야 하는 경우
 
 
