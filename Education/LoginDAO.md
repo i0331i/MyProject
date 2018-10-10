@@ -1,9 +1,9 @@
-My Project
+My Project(LoginDAO)
 =====================
-내용 
----------------------------
-이 LoginDao 파일은 사용자가 요청한 데이터 처리를 한 후에, 결과를 리턴해주는 역할을 합니다.
-LoginEntity를 받아서 DB에 접근해 해당 정보를 취득하고 아이디와 비번이 맞는지 체크하고 그 결과를 다시 LoginBiz에 돌려줍니다.
+  * 내용 
+    * 메소드명 : getLoginUser
+    * 로직 : 비즈니스 로직(Business Logic)
+    * 리턴값 : entity
 
 ~~~java
 package dao;
@@ -77,9 +77,12 @@ JdbcTemplate.close(conn);
  
  주요 단어
 ---------------------------------------------------
-1.printStackTrace:예외처리 메소드
+  1.printStackTrace:예외처리 메소드
+  
+  2.preparedStatement:Connection 객체의 prepareStatement() 메소드를 사용해서 객체를 생성하는 인터페이스 
+  
+  3.resultset:DB 명령에 대한 반환값을 저장하는 객체 
 
 더 알고 싶은 것
 ----------------------------------------------------
-
 
