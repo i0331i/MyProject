@@ -5,19 +5,6 @@
   * 입력된 값을 중복 제거 한다.
   * 중복 제거된 값을 중복 횟수 순으로 내림차순한다.
   
-* 수도 코드
-~~~java
-
-  for(int j=0; j<6;  j++) {
-			System.out.println(a[j]+" ");
-		}
-		System.out.println();		
-		
-
-
-~~~
-
-
 * 코드화
 ~~~java
   int a[] = new int [6];
