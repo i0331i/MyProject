@@ -60,7 +60,7 @@
 ~~~
 
 * 요약
-  * reverseOrder() 메소드를 이용하여 중복을 제거해 주었다.
+  * Collections.reverseOrder()으로 입력된 값의 중복을 자동을 제거해줌. 
   * for문을 활용하여 값을 입력한 큰 순서대로 넣어준다.
 
 
